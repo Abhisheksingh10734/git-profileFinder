@@ -1,16 +1,107 @@
-# React + Vite
+# 🔍 GitHub Profile Finder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully functional GitHub profile finder built with React.
+This project demonstrates API handling, state management, conditional rendering, and component-based architecture.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📸 Preview
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🚀 Live Demo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Clone the repository and run locally to explore the project.
+
+---
+
+## ✨ Features
+
+* Search GitHub users by username
+* Fetch real-time data from the GitHub API
+* Display:
+
+  * Profile avatar
+  * Name & username
+  * Followers & following count
+  * Public repositories count
+* Error handling for:
+
+  * Invalid usernames
+  * Failed API requests
+* Responsive UI design
+
+---
+
+## 🛠️ Tech Stack
+
+* React 18
+* Vite
+* Axios
+* CSS Modules
+
+---
+
+## ⚙️ Getting Started
+
+### Prerequisites
+
+* Node.js v18+
+* npm
+
+---
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/Abhisheksingh10734/git-profileFinder.git
+
+# Navigate into the project folder
+cd git-profileFinder
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+```
+
+---
+
+## 📁 Project Structure
+
+```bash
+src/
+├── components/
+│   ├── Bottom.jsx
+│   ├── Middle.jsx
+│   ├── MLeft.jsx
+│   ├── MRight.jsx
+│   └── Top.jsx
+├── App.jsx
+└── main.jsx
+```
+
+---
+
+## 🌐 API Used
+
+This project uses the official GitHub REST API:
+
+* https://api.github.com/users/:username
+* https://api.github.com/users/:username/repos
+
+---
+
+## 🤝 Contributing
+
+Pull requests are welcome.
+Feel free to fork the project and submit improvements.
+
+---
+
+## 📝 License
+
+This project is licensed under the MIT License.
