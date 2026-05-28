@@ -6,6 +6,7 @@ This project demonstrates API handling, state management, conditional rendering,
 ---
 
 ## 📸 Preview
+<img width="1907" height="900" alt="image" src="https://github.com/user-attachments/assets/b0a307ac-c21a-45e9-9daa-1dcf012a832e" />
 
 
 ---
